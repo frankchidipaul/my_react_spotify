@@ -1,0 +1,327 @@
+.left{
+width:24%;
+height: 90vh;
+background-color: black;
+position: absolute;
+position: fixed;
+margin-right: 20px;
+
+}
+
+/* .leftcontent{
+   
+    width:99%;
+    height:150vh ;
+    background-color: black;
+    
+    } */
+    .leftnav1{
+        border-radius: 10px;
+    position: fixed;
+     margin-top: 10px;
+    background-color: #121212;
+    border: 1px solid ;
+     height:100px ;
+     width:22.4%;
+     margin-left:7px;
+     font-family:"Helvetica Neue"
+     helvetica
+     arial
+     "Hiragino Kaku Gothic ProN"
+     Meiryo
+     "MS Gothic"
+     sans-serif
+      ;
+    
+      
+    }
+    
+    
+    
+     .leftnav3{
+        margin-right:20px ;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        position: fixed;
+        margin-top: -21px;
+        
+        border: 1px solid ;
+         height:100px ;
+         width:22.4%;
+        background-color: #121212;
+        
+    }
+    
+    
+    .libraryimg{
+    
+    width:20px;
+    filter: brightness(0) invert(1);
+    margin-left:20px ;
+    margin-top: 20px;
+    
+    }
+    .Libraryicon1{
+        font-family:sans-serif ;
+        position: absolute;   
+       margin-top:20px;
+       color:#747474;
+       margin-left:7% ;
+       font-size: 16px;
+       font-weight: 700;
+    
+    }
+    .Libraryicon1:hover{
+    color: #fff;
+    
+    }
+     .leftdive1{
+    width: 99%;
+    height: 60px;
+    
+    margin-top: 15px;
+    
+    } 
+    .leftdive1:hover{
+    background-color: #2A2A2A;
+    
+    }
+    .burnaimg{
+        width: 40px;
+        border-radius: 50px;
+        margin-top:5px ;
+        
+        }
+        .victonyimg {
+            width: 40px;
+            border-radius: 50px;
+            margin-top:5px ;
+            height:40px ;
+
+        }
+    .burnaname{
+        display: flex;
+        margin-top:-50px;
+        margin-left:65px;
+        font-family: sans-serif;
+    font-size:15px;
+    font-weight:600;
+     
+     color: #fff; 
+    }
+    .burnatitle{
+    display: flex;
+    margin-left:65px;
+    margin-top:10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #747474;
+    
+    
+    }
+    .Libraryiconplus{
+    color: #747474;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    
+    margin-left:70% ;
+    margin-top: -11%;
+    font-size:20px ;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+    }
+    .Libraryiconplus:hover{
+    background-color: #191919;
+    
+    }
+    .Libraryiconminus:hover{
+    background-color: #191919;
+    
+    }
+    .Libraryiconminus{
+        color: #747474;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        
+        margin-left:85% ;
+        margin-top: -11%;
+        font-size:20px ;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px; 
+    
+    }
+    .Playlistsbtn1  {
+        color: #fff;
+        border: none;
+      height:30px ;  
+      width:65px;  
+    position: absolute;
+        margin-top: 20%;
+    background-color:#2A2A2A;
+    left: 0;
+    margin-left:20px ;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    }
+    .Playlistsbtn1:hover{
+    background-color: #747474;
+    
+    }
+    .Playlistsbtn2  {
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        border: none;
+        font-size: 14px;
+        font-weight: 400;
+        border-radius:20px;
+        height: 30px;
+      margin-left:30%;  
+      width:70px;  
+    position: absolute;
+        margin-top: 20%;
+    background-color:#2A2A2A;
+    
+    }
+    .Playlistsbtn2:hover{
+    
+        background-color: #747474;
+    }
+    
+    
+    .navbtnprofile{
+        color: #fff;
+        background-color: red;
+        margin-right:10px ;
+        right: 0;
+        position: absolute;
+         border: 1px solid red;  
+         border-radius: 50%;
+         width:20px;
+         height: 20px;
+     
+    
+    }
+    
+    
+    .leftnav2{
+        position: fixed;
+        /* margin-top:50%; */
+        margin-top:12.10% ;
+        background-color:#121212;
+        border: 1px solid ;
+         height:320px ;
+         /* width:93.4%; */
+         width:22.4%;
+         margin-left:10px;
+         overflow-y: scroll;
+     
+    }
+    .leftnav2center{
+    background-color:  #121212;
+    margin-top:40%;
+    
+    
+    }
+    .search2{
+        color: #747474;
+     margin-left: 20px;   
+    display: flex;
+    
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    }
+    .search2:hover{
+      background-color: #2A2A2A;
+    
+    }
+    
+    .home{
+        margin-top: 10px;
+    width:30px ;
+    color: #fff;
+    border-left-color: aqua;
+    filter: brightness(1) invert(1);
+    margin-left:20px ;
+    }
+    .sp1{
+     font-family:sans-serif ;
+     position: absolute;   
+    margin-top:6%;
+    color:#fff;
+    margin-left:7% ;
+    font-size: 16px;
+    font-weight: 700;
+    }
+    .sp1:hover{
+     text-decoration: underline;
+    
+    }
+    #search{
+    color: #747474;
+    position: absolute;
+    bottom: 0;
+    margin-bottom:8%;
+    left:9%;
+    font-size:22px;
+    
+    }
+    #search:hover{
+    color: #fff;
+    
+    }
+    .sp2{
+        font-family:sans-serif ;
+        position: absolute;   
+       margin-top:22%;
+       color:#747474;
+       margin-left:7% ;
+       font-size: 16px;
+       font-weight: 700;
+    
+    }
+    .sp2:hover{
+    color: #fff;
+    text-decoration: underline;
+    
+    }
+    .recent{
+    margin-left:60% ;
+    
+    margin-top: -10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width:75px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #747474;
+    
+    }
+    .recent:hover{
+    color: #fff;
+    transform: scale(1.1);
+    
+    }
+    #list{
+    margin-left:8px;
+    
+    
+    }

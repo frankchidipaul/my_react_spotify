@@ -1,0 +1,87 @@
+
+
+
+
+.card{
+border: 1px  solid transparent;
+width: 200px;   
+height:240px; 
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: #2a2a2a;
+
+border-radius: 10px;
+position:relative;
+bottom: 0;
+
+}
+.imgcard1{
+width: 170px;
+height: 120px;
+border-radius: 10px;
+border: none;
+}
+.jazztext{
+  font-size:22px ;
+  font-weight:700;
+  font-family: sans-serif;
+position: absolute;
+margin-left:15px ;
+color: #fff;
+}
+.imgcard2{
+  position:absolute;
+  margin-top: -2%;
+width: 170px;
+height: 120px;
+border-radius: 10px;
+left: 0;
+
+}
+.imgcard3{
+  position:absolute;
+  margin-top: -2%;
+width: 170px;
+height: 120px;
+border-radius: 10px;
+left: 0;
+
+}
+.imgcard4{
+  position:absolute;
+  margin-top: -2%;
+width: 170px;
+height: 120px;
+border-radius: 10px;
+left: 0;
+
+}
+.imgcard{
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
+  
+border: 1px solid transparent;
+width:170px ;
+height: 120px;
+margin-top: -27%;
+border-radius: 10px;
+position: absolute;
+margin-left:2%;
+
+}
+
+.boss{
+  margin-top:35%;
+  position: absolute;
+  height:260px;
+  background-color: black;
+  width:75%;
+  display: flex;
+  margin-left:23.50%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
